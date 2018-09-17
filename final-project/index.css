@@ -1,0 +1,62 @@
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: white;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: lightblue;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered:  {
+  position: absolute;
+  top: 70%;
+  left: 20%;
+  text-align: left;
+}
+
+/* Nav Bar */
+.container {
+  display: flex;
+}
+
+a { 
+    display: block;
+    padding: 10px 30px;
+}
+li {
+    display:inline;
+    padding: 10px 40px;
+}
+
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+/* Style form */
+input[type=text] {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+/* Style right side images */
+
+
+//background image 3 seperate classes CSS and Js to chage in between classes. 
